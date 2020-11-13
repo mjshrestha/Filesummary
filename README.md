@@ -58,7 +58,7 @@ filesummary -a 2 -s “d1atc” file1.txt
  - File content: <br>
     1 dog <br>
     2 cat <br>
-  - Result:
+  - Result: <br>
     2 cat <br>
     1 dog <br>
     (skips the first two characters and alphabetizes by “cat “ and “dog”)
@@ -69,7 +69,7 @@ filesummary -r “1” file1.txt
   - File content: <br>
     1 dog <br>
     2 cat <br>
-  - Result:
+  - Result: <br>
     2 cat <br>
 
 #### 4. Example 4:
@@ -77,6 +77,6 @@ filesummary -k “2” -s “dog” -a 3 file1.txt
    - File content: <br>
     1 dog <br>
     2 cat <br>
-   - Result:
+   - Result: <br>
     2 cat <br>
    - Outputs “dog”
