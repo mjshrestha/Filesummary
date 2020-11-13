@@ -48,14 +48,14 @@ order of the parameters, if provided, -s will be applied first and -n next .
 ### EXAMPLES OF USAGE
 #### 1. Example 1:
 filesummary file1.txt
-- File content:
+- File content: <br>
     1 dog <br>
     2 cat <br>
 - Outputs “4”.
 
 #### 2. Example 2:
 filesummary -a 2 -s “d1atc” file1.txt
- - File content:
+ - File content: <br>
     1 dog <br>
     2 cat <br>
   - Result:
@@ -66,7 +66,7 @@ filesummary -a 2 -s “d1atc” file1.txt
 
 #### 3. Example 3:
 filesummary -r “1” file1.txt
-  - File content:
+  - File content: <br>
     1 dog <br>
     2 cat <br>
   - Result:
@@ -74,7 +74,7 @@ filesummary -r “1” file1.txt
 
 #### 4. Example 4:
 filesummary -k “2” -s “dog” -a 3 file1.txt
-   - File content:
+   - File content: <br>
     1 dog <br>
     2 cat <br>
    - Result:
