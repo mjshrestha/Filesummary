@@ -1,7 +1,6 @@
 # Filesummary
 
-In this project, a simple command-line utility called filesummary is developed in Java using the test driven approach which is the same utility for which you
-developed test frames in the category-partition assignment. 
+In this project, a simple command-line utility called filesummary is developed in Java using the test driven approach.
 
 ## Concise Specification of the filesummary Utility
 ● NAME:
